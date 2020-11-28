@@ -1,0 +1,76 @@
+{
+    "script": "src/train.py",
+    "arguments": [],
+    "framework": "Python",
+    "communicator": "None",
+    "target": "ai-lab-wor-com",
+    "environment": {
+        "python": {
+            "interpreterPath": "python",
+            "userManagedDependencies": false,
+            "condaDependencies": {
+                "channels": [
+                    "conda-forge"
+                ],
+                "dependencies": [
+                    "python=3.6.2",
+                    {
+                        "pip": [
+                            "azureml-core==1.15.0",
+                            "azureml-defaults==1.15.0",
+                            "azureml-telemetry==1.15.0",
+                            "azureml-train-restclients-hyperdrive==1.15.0",
+                            "azureml-train-core==1.15.0",
+                            "cmake==3.18.2",
+                            "torch==1.6.0",
+                            "torchvision==0.5.0",
+                            "mkl==2018.0.3",
+                            "horovod==0.20.0",
+                            "tensorboard==1.14.0",
+                            "future==0.17.1",
+                            "tensorboardX==2.1"
+                        ]
+                    }
+                ],
+                "name": "azureml_7b0176e0fbd509c16a43415a73547ef6"
+            },
+            "baseCondaEnvironment": null
+        },
+        "environmentVariables": {
+            "EXAMPLE_ENV_VAR": "EXAMPLE_VALUE",
+            "NCCL_TREE_THRESHOLD": "0"
+        },
+        "docker": {
+            "baseImage": "mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04:20200928.v1",
+            "platform": {
+                "os": "Linux",
+                "architecture": "amd64"
+            },
+            "baseDockerfile": null,
+            "baseImageRegistry": {
+                "address": null,
+                "username": null,
+                "password": null
+            },
+            "enabled": false,
+            "arguments": []
+        },
+        "spark": {
+            "repositories": [],
+            "packages": [],
+            "precachePackages": true
+        },
+        "inferencingStackVersion": null,
+        "configUri": "/subscriptions/d15ea0c2-d52c-434c-800e-605234118295/resourceGroups/ai-lab-resource/providers/Microsoft.MachineLearningServices/workspaces/ai-lab-workspace/environments/AzureML-PyTorch-1.6-GPU/versions/6"
+    },
+    "history": {
+        "outputCollection": true,
+        "snapshotProject": false,
+        "directoriesToWatch": [
+            "logs"
+        ]
+    },
+    "docker": {
+        "useDocker": true
+    }
+}
