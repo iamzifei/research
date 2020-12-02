@@ -40,7 +40,7 @@ def download_model(model_path='./model'):
 
 def upload_blob(destination_blob_name, fileName):
     """Uploads a file to the bucket."""
-    bucketName = "attention_bucket"
+    bucketName = "zifei_bucket"
     project = 'ai-lab-290600'
 
     storage_client = storage.Client(project=project)

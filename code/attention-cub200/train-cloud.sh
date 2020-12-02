@@ -18,7 +18,7 @@
 echo "Submitting AI Platform PyTorch job"
 
 # BUCKET_NAME: Change to your bucket name.
-BUCKET_NAME=attention_bucket
+BUCKET_NAME=zifei_bucket
 
 # The PyTorch image provided by AI Platform Training.
 IMAGE_URI=gcr.io/cloud-ml-public/training/pytorch-gpu.1-4

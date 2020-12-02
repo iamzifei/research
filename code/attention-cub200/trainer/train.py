@@ -28,14 +28,14 @@ TRAIN_RATIO = 0.6
 
 class Args:
     # outf = os.path.join(os.curdir, "logs")
-    outf = "gs://attention_bucket/logs"
+    outf = "gs://zifei_bucket/logs"
     num_aug = 3
     num_classes = 200
     image_size = 112
     batch_size = 16
-    epochs = 300
+    epochs = 150
     lr = 0.1
-    log_images = False
+    log_images = True
     normalize_attn = True
     no_attention = False
 

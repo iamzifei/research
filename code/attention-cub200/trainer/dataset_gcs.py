@@ -10,7 +10,7 @@ from google.cloud import storage
 
 
 class CUB(Dataset):
-    bucketName = "attention_bucket"
+    bucketName = "zifei_bucket"
     path = "data/CUB200/CUB_200_2011"
     project = 'ai-lab-290600'
     threshold = 100
