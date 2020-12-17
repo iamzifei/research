@@ -6,7 +6,7 @@ if [ $# -eq 1 ]
 then msg="$1"
 fi
 
-hugo -t=we -D
+hugo
 
 git add -A
 git commit -m "$msg"
