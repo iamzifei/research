@@ -8,6 +8,9 @@ hasCJKLanguage = true
 # 网站标题
 title = "Zifei Gong's Homepage"
 
+# change the default public folder
+publishDir = 'docs'
+
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 

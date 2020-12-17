@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - Zifei Gong&#39;s Homepage</title>
-        <link>https://research.zifei.info/tags/</link>
-        <description>Tags - Tag - Zifei Gong&#39;s Homepage</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>z3224950@ad.unsw.edu.au (Zifei Gong)</managingEditor>
-            <webMaster>z3224950@ad.unsw.edu.au (Zifei Gong)</webMaster><atom:link href="https://research.zifei.info/tags/" rel="self" type="application/rss+xml" /></channel>
-</rss>

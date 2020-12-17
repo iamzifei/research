@@ -8,9 +8,6 @@ fi
 
 hugo -t=we -D
 
-cd public
 git add -A
 git commit -m "$msg"
 git push --force -u origin master
-
-cd ../
